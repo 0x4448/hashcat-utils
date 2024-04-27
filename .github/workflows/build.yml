@@ -1,6 +1,7 @@
 name: Build Hashcat Utils
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - master
